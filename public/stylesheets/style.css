@@ -6,3 +6,14 @@ body {
 a {
   color: #00b7ff;
 }
+ h1{
+   color : red;
+   font-style: oblique;
+ }
+#categorySelect
+{
+  background-color: green;
+}
+#categorySelect option:hover{
+  background-color: greenyellow;
+}

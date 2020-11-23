@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= Document %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css"/>
+</head>
+<body>
+ <h1><%= Choisissez la catégorie de livres qui vous intéresse: %></h1>
+ <select name="category" id="categorySelect">
+   <% categories.forEach(category => { %>
+     <option value="<%= category %>"><%= category %></option>
+   <% }); %>
+ </select>
+</body>
+</html>
